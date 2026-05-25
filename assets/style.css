@@ -481,6 +481,77 @@ a:hover {
   background: rgba(255, 255, 255, 0.05);
 }
 
+.info-cards {
+  display: grid;
+  gap: 1rem;
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+.info-card {
+  padding: 2rem 1.75rem;
+  border-radius: 18px;
+  background: var(--paper-elevated);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.info-card h2 {
+  margin: 0 0 0.65rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.55rem;
+  letter-spacing: -0.02em;
+}
+
+.info-card--support {
+  text-align: center;
+}
+
+.info-lead {
+  margin: 0 0 1.1rem;
+  color: var(--mist);
+  font-size: 0.98rem;
+}
+
+.info-email {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.info-email:hover {
+  color: var(--rose);
+}
+
+.info-note {
+  margin: 0;
+  color: var(--mist);
+  font-size: 0.88rem;
+}
+
+.info-copy {
+  margin: 0 0 1rem;
+  color: var(--mist);
+  font-size: 0.96rem;
+  line-height: 1.65;
+}
+
+.info-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.info-link:hover {
+  color: var(--rose);
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.42);
