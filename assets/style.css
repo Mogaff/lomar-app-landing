@@ -71,10 +71,16 @@ a:hover {
   gap: 1rem;
 }
 
-.logo img {
-  height: 32px;
-  width: auto;
-  border-radius: 7px;
+.logo img.logo-mark {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.footer-brand .logo img.logo-mark {
+  height: 36px;
+  width: 36px;
 }
 
 .top-nav {
